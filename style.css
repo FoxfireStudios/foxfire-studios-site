@@ -63,6 +63,10 @@ main h2 {
   color: #ff4d4d;
 }
 
+.welcome-text {
+  text-align: center;
+}
+
 /* Cards for links */
 .cards {
   display: flex;
