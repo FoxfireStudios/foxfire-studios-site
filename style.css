@@ -64,3 +64,17 @@ footer {
   border-top: 3px solid #660000;
   color: #ff4d4d;
 }
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 1rem;
+  height: 80px;
+}
+
+header h1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 2rem;
+  color: #ff4d4d;
+}
