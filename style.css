@@ -1,72 +1,25 @@
-
+/* Base layout */
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
-  padding: 0;
-  background: #2b0000;
-  color: #ff4d4d;
+  font-family: Arial, sans-serif;
+  background-color: #2a0000; /* Deep dark red */
+  color: #ff4d4d; /* Bright red */
 }
+
+/* Header section */
 header {
-  background: #400000;
-  padding: 1rem;
-  text-align: center;
-  border-bottom: 3px solid #660000;
+  background-color: #1a0000;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid #660000;
 }
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-nav a {
-  color: #ff4d4d;
-  text-decoration: none;
-  font-weight: bold;
-}
-nav a:hover {
-  text-decoration: underline;
-}
-.hero {
-  padding: 2rem;
-  text-align: center;
-  background: #330000;
-}
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 1.5rem;
-  padding: 2rem;
-}
-.card {
-  background: #3b0000;
-  padding: 1rem;
-  border-radius: 8px;
-  border: 1px solid #660000;
-  transition: transform 0.2s;
-  color: #ff4d4d;
-}
-.card:hover {
-  transform: translateY(-5px);
-}
-footer {
-  text-align: center;
-  padding: 1rem;
-  background: #400000;
-  font-size: 0.9rem;
-  border-top: 3px solid #660000;
-  color: #ff4d4d;
-}
+
 .header-container {
   display: flex;
   align-items: center;
-  padding: 1rem;
 }
 
 .logo {
-  height: 100px;
+  height: 80px;
   margin-right: 1rem;
 }
 
@@ -83,4 +36,68 @@ header h1 {
 
 nav {
   margin-top: 0.5rem;
+}
+
+nav a {
+  color: #ff4d4d;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main section */
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+main h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #ff4d4d;
+}
+
+/* Cards for links */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  background-color: #1a0000;
+  border: 1px solid #660000;
+  border-radius: 8px;
+  padding: 1rem;
+  width: 250px;
+  box-shadow: 0 0 10px #66000055;
+  transition: transform 0.2s;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card h3 {
+  margin-top: 0;
+  color: #ff4d4d;
+}
+
+.card p {
+  color: #ff9999;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #1a0000;
+  border-top: 1px solid #660000;
+  color: #ff4d4d;
+  font-size: 0.9rem;
 }
