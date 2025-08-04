@@ -3,18 +3,19 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #111;
-  color: #f1f1f1;
+  background: #2b0000;
+  color: #ff4d4d;
 }
 header {
-  background: #222;
+  background: #400000;
   padding: 1rem;
   text-align: center;
-  border-bottom: 3px solid #444;
+  border-bottom: 3px solid #660000;
 }
 header h1 {
   margin: 0;
   font-size: 2rem;
+  color: #ff4d4d;
 }
 nav ul {
   list-style: none;
@@ -26,7 +27,7 @@ nav ul {
   margin-top: 1rem;
 }
 nav a {
-  color: #00d8ff;
+  color: #ff4d4d;
   text-decoration: none;
   font-weight: bold;
 }
@@ -36,7 +37,7 @@ nav a:hover {
 .hero {
   padding: 2rem;
   text-align: center;
-  background: #1a1a1a;
+  background: #330000;
 }
 .grid {
   display: grid;
@@ -45,11 +46,12 @@ nav a:hover {
   padding: 2rem;
 }
 .card {
-  background: #222;
+  background: #3b0000;
   padding: 1rem;
   border-radius: 8px;
-  border: 1px solid #333;
+  border: 1px solid #660000;
   transition: transform 0.2s;
+  color: #ff4d4d;
 }
 .card:hover {
   transform: translateY(-5px);
@@ -57,7 +59,8 @@ nav a:hover {
 footer {
   text-align: center;
   padding: 1rem;
-  background: #222;
+  background: #400000;
   font-size: 0.9rem;
-  border-top: 3px solid #444;
+  border-top: 3px solid #660000;
+  color: #ff4d4d;
 }
